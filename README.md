@@ -5,7 +5,7 @@ By Max Scher
 
 ## Description
 
-A question and answer message board, similar to Reddit, Quora, StackOverflow or other such sites. Users can submit a question, then other users can respond with answers.
+A question and answer message board for parents working in web development. Users can submit a question, then other users can respond with answers.
 
 ## Planning
 
@@ -23,6 +23,7 @@ A question and answer message board, similar to Reddit, Quora, StackOverflow or 
   * It can allow users to click a question, which will route them to another page containing additional information about said question.
   * It can allow users to edit an existing question.
   * It can allow users to submit answers to an existing question, and display the submitted answer on the page containing additional question-specific information.
+  * It can allow users to delete a question.
 
 3. Architectural Outline
   * Header/Footer
@@ -55,42 +56,24 @@ A question and answer message board, similar to Reddit, Quora, StackOverflow or 
   * Flesh-out rest of README
 
 ## Installation
-
-* `git clone <repository-url>` this repository
-* `cd js-ama`
-* `npm install`
-* `bower install`
+In Terminal,
+  * `git clone https://github.com/maxobaxo/js-ama`
+  * `cd js-ama`
+  * `npm install`
+  * `bower install`
+  * `ember serve`
+In Browser,
+  * Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ## Known Bugs
-When a user updates one attribute of a post, but leaves another blank. The blank submission is captured as 'undefined', then converts to an empty string and overwrites the existing value.
+* When a user updates one attribute of a post, but leaves another blank. The blank submission is captured as 'undefined', then converts to an empty string and overwrites the existing value.
 
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
+## Technologies Used
 * [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [Firebase](https://firebase.google.com/)
+* [Bootstrap](http://getbootstrap.com/)
+* Languages: HTML, CSS, JavaScript, Git
+
+## License Information
+This web application is free to use under the MIT License. |
+&copy; Max Scher 2017
