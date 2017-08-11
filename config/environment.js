@@ -17,12 +17,10 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-    apiKey: "AIzaSyCfi0L92t7lozF_xPlXDVrjwIutoGChZDE",
-    authDomain: "js-ama.firebaseapp.com",
-    databaseURL: "https://js-ama.firebaseio.com",
-    projectId: "js-ama",
-    storageBucket: "js-ama.appspot.com",
-    messagingSenderId: "179018953000"
+      apiKey: "AIzaSyCfi0L92t7lozF_xPlXDVrjwIutoGChZDE",
+      authDomain: "js-ama.firebaseapp.com",
+      databaseURL: "https://js-ama.firebaseio.com",
+      storageBucket: "js-ama.appspot.com"
     },
 
     APP: {
