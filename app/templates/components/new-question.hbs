@@ -8,6 +8,10 @@
       <label for="content">Your Question</label>
       {{input value=content id="content"}}
     </div>
+    <div class="form-group">
+      <label for="notes">Additional Notes</label>
+      {{input value=notes id="notes"}}
+    </div>
     <button {{action 'saveQuestion'}}>Submit</button>
   </form>
 {{else}}

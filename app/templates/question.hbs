@@ -1,7 +1,9 @@
+<h2>Specific Question: </h2>
 <div class="well">
-  <h3>Specific Question: </h3>
-  <h4>{{model.author}} says: </h4>
-  <p>{{model.content}}</p>
+  <h3>{{model.author}} says: </h3>
+  <h5>{{model.content}}</h5>
+  <p><em>Note: {{model.notes}}</em></p>
+
   {{edit-question question=model update="update"}}
   {{question-detail question=model destroyQuestion="destroyQuestion"}}
 </div>
