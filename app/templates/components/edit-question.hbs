@@ -1,1 +1,17 @@
-<button {{action 'delete' question}}>Delete Question</button>
+{{#if updateQuestionForm}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Your Name</label>
+        {{input value=author id="author" placeholder=question.author}}
+      </div>
+      <div class="form-group">
+        <label for="content">Question</label>
+        {{input value=content id="content" placeholder=question.content}}
+      </div>
+      <button {{action 'update' question}}>Update</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateQuestionForm'}}>Update Question</button>
+{{/if}}

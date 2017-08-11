@@ -1,5 +1,6 @@
 {{#link-to 'question' question.id}}
   <div class="well">
     "{{question.content}}" -- {{question.author}}
+    {{edit-question-detail question=question update="update"}}
   </div>
 {{/link-to}}
