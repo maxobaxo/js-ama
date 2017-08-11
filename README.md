@@ -61,6 +61,9 @@ A question and answer message board, similar to Reddit, Quora, StackOverflow or 
 * `npm install`
 * `bower install`
 
+## Known Bugs
+When a user updates one attribute of a post, but leaves another blank. The blank submission is captured as 'undefined', then converts to an empty string and overwrites the existing value.
+
 ## Running / Development
 
 * `ember serve`
