@@ -1,7 +1,17 @@
-<h3>Specific Question: </h3>
-<h4>{{model.author}} says: </h4>
-<p>{{model.content}}</p>
+<div class="well">
+  <h3>Specific Question: </h3>
+  <h4>{{model.author}} says: </h4>
+  <p>{{model.content}}</p>
+  {{edit-question question=model update="update"}}
+  {{question-detail question=model destroyQuestion="destroyQuestion"}}
+</div>
 
-{{edit-question question=model update="update"}}
-
-{{question-detail question=model destroyQuestion="destroyQuestion"}}
+<div class="well">
+  <h3>Answers</h3>
+  {{new-answer saveAnswer="saveAnswer" question=model}}
+  <ul>
+    {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+    {{/each}}
+  </ul>
+</div>
