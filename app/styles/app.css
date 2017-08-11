@@ -15,9 +15,45 @@
 .btn {
   background-color: #68DBED;
   color: #582F70;
+  border: 2px solid #582F70;
 }
 
 body {
   background-color: #582F70;
-  color: #E1C8FF;
+  color: #68DBED;
+}
+
+.panel-body {
+  color: #68DBED;
+  background-color: #582F70;
+  overflow: hidden;
+}
+
+.panel-footer button {
+  float: right;
+}
+
+.panel-footer {
+  background-color: #E1C8FF;
+}
+
+.delete {
+  float: right;
+}
+
+.well {
+  overflow: hidden;
+}
+
+button .inline {
+  display: inline;
+}
+
+.panel {
+  border: solid 2px #582F70;
+}
+
+footer .well h3 {
+  color: #582F70;
+  text-align: center;
 }

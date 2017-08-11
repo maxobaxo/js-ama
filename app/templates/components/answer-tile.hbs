@@ -1,9 +1,6 @@
-<div class="panel panel-default">
+<div class="panel">
   <div class="panel-body">
-    <h5>{{answer.content}}</h5>
-  </div>
-  <div class="panel-footer">
-    <p>from {{answer.author}}</p>
-    <button {{action 'delete' answer}} class="btn">Delete</button>
+    <h4>"{{answer.content}}" <em>--- {{answer.author}}</em></h4>
+    <button {{action 'delete' answer}} class="btn delete">Delete</button>
   </div>
 </div>
