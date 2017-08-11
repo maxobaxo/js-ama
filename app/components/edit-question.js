@@ -8,7 +8,7 @@ export default Ember.Component.extend({
     },
     update(question) {
       var params = {
-        author: this.get('author') ? this.get('author') : undefined,
+        author: this.get('author'),
         content: this.get('content'),
         notes: this.get('notes')
       };
