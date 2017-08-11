@@ -1,3 +1,23 @@
 .profile-photo {
   background-image: url("/../img/screen-shot.png");
 }
+
+.jumbotron, .jumbotron h1 {
+  background-color: #68DBED;
+  color: #582F70;
+}
+
+.well {
+  background-color: #E1C8FF;
+  color: #473E87;
+}
+
+.btn {
+  background-color: #68DBED;
+  color: #582F70;
+}
+
+body {
+  background-color: #582F70;
+  color: #E1C8FF;
+}
