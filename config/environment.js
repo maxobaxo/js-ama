@@ -16,8 +16,8 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    firebase {
-      apiKey: "AIzaSyCfi0L92t7lozF_xPlXDVrjwIutoGChZDE",
+    firebase: {
+    apiKey: "AIzaSyCfi0L92t7lozF_xPlXDVrjwIutoGChZDE",
     authDomain: "js-ama.firebaseapp.com",
     databaseURL: "https://js-ama.firebaseio.com",
     projectId: "js-ama",

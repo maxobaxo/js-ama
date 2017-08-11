@@ -1,1 +1,5 @@
-{{outlet}}
+<h2>Q's & A's</h2>
+
+{{#each model as |question|}}
+  {{question-tile question=model}}
+{{/each}}
