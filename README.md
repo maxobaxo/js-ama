@@ -25,7 +25,12 @@ A question and answer message board, similar to Reddit, Quora, StackOverflow or 
   * It can allow users to submit answers to an existing question, and display the submitted answer on the page containing additional question-specific information.
 
 3. Architectural Outline
+  * Header/Footer
+    * Link to Homepage
+    * Link to LinkedIn
   * Homepage (Index Route)
+    * Add-Question Component
+      * Conditional statement displaying an 'Add' button or Question-Submission Form
     * Loop/List containing a Question-Tile Component
       * Question-Tile Component
         * Question Content & Question Author
@@ -34,6 +39,8 @@ A question and answer message board, similar to Reddit, Quora, StackOverflow or 
   * Question-Specific Route
     * Question-Detail Component
       * Question Content & Question Author
+      * Edit-Question Component
+        * Conditional statement displaying an 'Edit' button or a form to edit question content or author
       * Question Additional Details
       * Loop/List containing an Answer-Tile Component
         * Answer-Tile Component
