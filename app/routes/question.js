@@ -8,8 +8,8 @@ export default Ember.Route.extend({
     update(question, params) {
       console.log(params);
       Object.keys(params).forEach(function(key) {
-        // console.log(params);
-        if(params[key]!==undefined || !(params[key])) {
+        console.log(question);
+        if(params[key]!==undefined && params[key]!=="") {
           question.set(key,params[key]);
         }
       });
